@@ -1,0 +1,57 @@
+/* CartDisplay.css */
+.cart-display-container {
+    position: fixed;
+    top: 0; /* Position at the top of the viewport */
+    left: 0;
+    right: 0;
+    bottom: 0; /* Take the full height of the viewport */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    z-index: 1000; /* Set a high z-index to ensure it's on top of other content */
+}
+
+.cart-content {
+    width: 80rem;
+    height: 50rem;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    overflow: auto;
+    /* Add any other styling you need for your cart content */
+}
+.cart-items-cont{
+    width: 100%;
+    min-height: 100%;
+    height: fit-content;
+}
+.cart-close{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+.cart-close p:nth-child(2n){
+    cursor: pointer;
+}
+.cart-item{
+    width: 100%;
+    height: 8rem;
+    margin: 5px 0 5px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cart-item p{
+    margin: auto;
+}
+.cart-item img{
+    width: 10rem;
+}

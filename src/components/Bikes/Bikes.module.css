@@ -1,0 +1,10 @@
+.bikes-container{
+    width: 100rem;
+    height: 80rem;
+    margin: auto;
+}
+.bikes-container p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}

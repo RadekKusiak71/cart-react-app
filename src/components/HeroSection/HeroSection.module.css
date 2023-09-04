@@ -1,0 +1,66 @@
+.hero-container{
+    width: 90rem;
+    height: 70rem;
+    margin: auto;
+}
+.hero-container img{
+    width: 35rem;
+    position: relative;
+    left: 52%;
+    top:-10%;
+}
+.hero-text{
+    width: 35rem;
+    position: relative;
+    top: 25%;
+    left: 5%;
+    line-height: 55px;
+}
+.hero-text p:first-child{
+    font-size: 60px;
+    letter-spacing: -2px;
+    font-weight: 300;
+}
+.hero-text p:nth-child(2n){
+    font-size: 45px;
+    letter-spacing: -2px;
+    font-weight: 300;
+}
+.hero-text p:nth-child(3n){
+    font-size: 45px;
+    letter-spacing: -2px;
+    font-weight: 300;
+}
+.hero-buttons{
+    width: 30rem;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.hero-buttons button {
+    background: none;
+	color: inherit;
+	border: 2px solid rgba(68, 67, 67, 0.516);
+    width: 12rem;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    transition: 0.3s ease-in-out;
+}
+.hero-buttons button:first-child{
+    background-color: rgba(68, 67, 67);
+    color: white;
+}
+.hero-buttons button:first-child:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.hero-buttons button:nth-child(2n):hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgba(68, 67, 67);
+    color: white;
+}
